@@ -1,0 +1,10 @@
+1. Inicio 
+2. termino, i [0, n] <- 9
+3.rango, x (100) [(0-9), (¡? =)) (BS, /, +)]
+4.numerador, i [0, n] <- 1
+5.denominador, i [0, n] <- 1
+6.Para (denominador <- 1, denominador <= termino, 2) haga 
+7.ejercicio <- rango + "+" + numerador + "/" + denominador + ""
+8.Fin Para
+9.Escribir rango
+10.Fin

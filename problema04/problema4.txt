@@ -1,0 +1,48 @@
+1.Inicio
+
+// variables
+
+2.nombre, x (100) [{AZ}, {az}, {BS}, {´}]
+Posición, x (100) [{AZ}, {az}, {BS}, {´}]
+4.edad, i [0, n]
+5.estatura, d [0, n]
+6.salida, x (10) [{az}]
+7.promlEdad, d [0, n]
+8.promEstatura, d [0, n]
+9.contador <- 0
+10.totalEdad <- 0
+11.totalEstatura <- 0
+
+// ciclo repetitivo
+
+12.haga_Hasta
+13.acumulador <- ""
+
+14.Escribir "Ingrese el nombre del jugador" //
+15.Nombre de la letrada
+
+16.Escribir "Ingrese la posición en la que juega"
+17.Leer posicion
+
+18.Escribir "Ingrese la edad del jugador"
+19.Edad menor
+
+20.Escribir "Ingrese la estatura del jugador"
+21.Leer estatura
+
+22.contador <- contador + 1
+23.totalEdad <- totalEdad + edad
+24.totalEstatura <- totalEstatura + estatura // 0 + 1.95
+25.acumulador <- nombre + "" + "-" + posicion + "" + "," + "" + edad + "" + "," + "" + estatura + \ n 
+ 
+25.Escribir "Ingrese si para culminar el proceso"
+26.Leer salida
+
+27.Fin haga_Hasta (salida! = "Si") 
+
+28.promEdad <- totalEdad / contador
+29.promEstatura <- totalEstatura / contador
+30.Escribir acumulador
+30.Escribir promEdad
+32.Escribir promEstatura
+33.Fin

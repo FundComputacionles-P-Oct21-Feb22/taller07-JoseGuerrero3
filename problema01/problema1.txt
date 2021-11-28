@@ -1,0 +1,26 @@
+1.Inicio
+
+// variables
+
+2. término, i [0, n] <- 10
+3.numerador, i [0, n] <- 1
+4.denominador, i [0, n] <- 1
+5.cadena, x (100), [(0-9), (-, /, BS, +)] <- ""
+6.suma, x (1) [(+)]
+7.división, x (1) [(/)]
+8.resta, x (1) [(-)]
+9.signos, x (3) [(+, -, /)]
+
+// mientras tanto
+
+10.Mientras (denominador <=  término) haga
+11. Si (denominador MOD 2 <- 0) entonces
+12. signos <- suma
+13. caso contrario
+14. signos <- resta
+	FIN SI
+15.cadena <- cadena + simbolo + numerador + div + denominador + ""
+16.denominador <- denominador + 1
+17.Fin mientras
+18.Escribir cadena
+19.FIN
